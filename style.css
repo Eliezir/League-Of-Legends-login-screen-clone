@@ -202,8 +202,8 @@
 
   .wallpaper{
     width: 100%;
-    /* background-image: url("images/mylivewallpapers.com-Teemo-Bees-LoL.gif");   */
-    background-image: url("images/wallpaper.jpg");
+     background-image: url("images/mylivewallpapers.com-Teemo-Bees-LoL.gif"); 
+    /*background-image: url("images/wallpaper.jpg");  */
     background-size: cover;
     background-position:center;
     background-repeat:repeat;
