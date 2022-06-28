@@ -24,23 +24,25 @@
           <span>nome de usuário</span>
           <input type="text" name="username" class="input">
         </label>
-  
-        <label class="login__label">
-          <span>senha</span>
+
+        <label id="password"class="login__label">
+          <span class="span">senha</span>
           <input type="password" name="password" class="input">
+          <button type="button"class="password__visible">
+            <i class="material-icons visibility">visibility_off</i></button>
         </label>
   
         <div class="login__icons">
           <button type="button" class="icons__button">
-            <img src="./images/facebook-icon.png" alt="facebok">
+            <img src="./images/facebook-icon.png" alt="Facebook">
           </button>
   
           <button type="button" class="icons__button">
-            <img src="./images/google-icon.png" alt="facebok">
+            <img src="./images/google-icon.png" alt="google">
           </button>
   
           <button type="button" class="icons__button">
-            <img src="./images/apple-icon.png" alt="facebok">
+            <img src="./images/apple-icon.png" alt="apple">
           </button>
         </div>
   
@@ -57,13 +59,21 @@
           </svg>
         </button>
   
+
+
         <a href="#" class="login__link">não consegue iniciar sessão?</a>
         <a href="#" class="login__link">criar conta</a>
       </div>
-
+      <label class="effects__label--checkbox">
+        <input type="checkbox" class="effects--input--checkbox input--checkbox">
+        Desligar efeitos visuais
+      </label>
     </section>
 
-    <section class="wallpaper"></section>
+    <section class="wallpaper">
+      <video autoplay muted loop id="wallpaper-live">
+      <source src="images/wallpaper-live.mp4" type="video/mp4">
+    </video></section>
   </main>
   
 </body>
